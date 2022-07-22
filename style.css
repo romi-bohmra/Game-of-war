@@ -1,0 +1,59 @@
+body {
+    background-image: url('./bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: auto;
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+}
+.deck-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deck-div h3{
+    font-size: 16px;
+    margin-left: 8px;
+}
+.card-slot{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: calc(120px * 5 / 7)
+}
+div#cards {
+    margin: auto;
+}
+div#card-slot-1{
+    margin-bottom: 25px;
+}
+button {
+    background-color: #FFF100;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #000000;
+}
+#cards img {
+    width: 100%;
+}
+button#draw-cards {
+    align-self: stretch;
+}
+button:disabled {
+    background-color: gray;
+    color: white;
+}
